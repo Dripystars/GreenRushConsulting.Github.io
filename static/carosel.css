@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-container {
+    position: absolute;
+    width: 80%;
+    top: 115%; /* Vertical centering */
+    left: 50%; /* Horizontal centering */
+    transform: translate(-50%, -50%); /* Adjusts the element back by half its width and height */
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    height: 40px; /* Adjust based on your content */
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: contain;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+button.prev {
+    left: 10px;
+    display: none;
+}
+
+button.next {
+    right: 10px;
+    display: none;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,321 @@
+ /* Root variables for consistency */
+ :root {
+    --main-green: rgb(102, 189, 50);
+    --dark-green: rgb(69, 126, 32);
+    --darker-green: rgb(34, 63, 15);
+    --light-green: rgb(117, 187, 117);
+    --medium-green: rgb(106, 152, 77);
+    --darkest-green: rgb(79, 101, 63);
+    --heading-color: rgb(189, 254, 104);
+    --text-color: white;
+    --font-primary: Arial, sans-serif;
+    --font-secondary: 'Times New Roman', Times, serif;
+    --button-bg: black;
+    --button-hover: #0056b3;
+    --button-radius: 50px;
+}
+
+/* Global Resets */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Utility Classes */
+.absolute-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-width-height {
+    width: 100%;
+    height: 100%;
+}
+
+/* Spacer Block */
+.SpacerBlock {
+    position: absolute;
+    top: 1%;
+    width: 100%;
+    height: 12%;
+}
+
+/* Video Section */
+.VideoBox {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 100%;
+    height: 85%;
+}
+
+.video-tinted {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.video-tinted::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgb(0, 0, 0);
+    pointer-events: none;
+}
+
+/* Headings */
+p#main-heading, p#sub-heading {
+    position: absolute;
+    width: 70%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    font-weight: bold;
+}
+
+p#main-heading {
+    top: 30%;
+    font-size: 50px;
+    font-family: var(--font-primary);
+    color: var(--heading-color);
+}
+
+p#sub-heading {
+    top: 60%;
+    font-size: 24px;
+    font-family: var(--font-secondary);
+    color: var(--text-color);
+}
+
+/* Main Button */
+button#Main-Button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: var(--text-color);
+    background-color: var(--button-bg);
+    padding: 10px 30px;
+    border: none;
+    border-radius: var(--button-radius);
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Contact Boxes */
+[class^="ContactBox"] {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width: 60%;
+    height: 40%;
+}
+
+.ContactBox1 { top: 150%; background-color: var(--main-green); }
+.ContactBox2 { top: 190%; background-color: var(--dark-green); }
+.ContactBox3 { top: 230%; background-color: var(--darker-green); }
+
+/* Smaller Boxes */
+[id^="smallerbox"] {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    height: 90%;
+}
+
+#smallerbox { background-color: var(--light-green); }
+#smallerbox1 { background-color: var(--medium-green); }
+#smallerbox2 { background-color: var(--darkest-green); }
+
+/* Slightly Bigger Boxes */
+[id^="SlightlyBiggerBox"] {
+    width: 60%;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+
+#SlightlyBiggerBox { background-color: var(--main-green); }
+#SlightlyBiggerBox1 { background-color: var(--dark-green); }
+#SlightlyBiggerBox2 { background-color: var(--darker-green); }
+
+/* Buttons */
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: var(--text-color);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--button-hover);
+}
+
+/* Note Section */
+#NoteContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.NoteBox {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+#Left, #Middle, #Right, #BoxRight, #BoxLeft {
+    background-color: #ffffff00;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow: hidden;
+    white-space: normal;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#Left, #Middle, #Right {
+    flex: 1;
+}
+
+#Left p, #Middle p, #Right p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+    padding: 5px;
+}
+
+#BoxLeft, #BoxRight {
+    width: 1px !important;
+    height: 100%;
+    flex: 0 0 auto;
+    padding: 0;
+    background-color: #787878e9;
+}
+p#Bottom1, #Top1 {
+    text-align: center;
+    padding: 5px 0;
+}
+
+p#Bottom1 {
+    color: rgb(213, 212, 212);
+    font-size: 20px;
+    font-family: var(--font-secondary);
+}
+
+#Top1 {
+    font-size: 32px;
+    color: var(--text-color);
+    font-weight: bold;
+    font-family: var(--font-secondary);
+}
+
+#smallerbox p, #smallerbox1 p, #smallerbox2 p {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: var(--text-color);
+    font-weight: bold;
+    font-family: var(--font-secondary);
+}
+
+#SlightlyBiggerBox button, 
+#SlightlyBiggerBox1 button, 
+#SlightlyBiggerBox2 button {
+    display: block;
+    background-color: var(--button-bg);
+    color: var(--text-color);
+    font-size: 1.2em;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px auto;
+    width: fit-content;
+}
+
+#SlightlyBiggerBox button:hover,
+#SlightlyBiggerBox1 button:hover,
+#SlightlyBiggerBox2 button:hover {
+    background-color: var(--button-hover);
+}
+
+
+@media (max-width: 768px) {
+    .NoteBox {
+        width: 80%; /* Take up more space on smaller screens */
+        flex-direction: column; /* Stack sections vertically */
+    }
+
+    #Left, #Middle, #Right {
+        width: 100%; /* Each section takes full width */
+    }
+
+
+    p#main-heading {
+        font-size: 30px; /* Smaller font size for main heading */
+    }
+
+    p#sub-heading {
+        font-size: 18px; /* Smaller font size for sub-heading */
+    }
+
+    button#Main-Button {
+        font-size: 1.5em; /* Adjust button size */
+        padding: 8px 20px; /* Adjust button padding */
+    }
+
+    /* Adjust smaller and bigger boxes for mobile */
+    #smallerbox, #smallerbox1, #smallerbox2,
+    #SlightlyBiggerBox, #SlightlyBiggerBox1, #SlightlyBiggerBox2 {
+        width: 90%; /* Allow boxes to take up most of the screen width */
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* Adjust button sizes in smaller boxes */
+    #SlightlyBiggerBox button,
+    #SlightlyBiggerBox1 button,
+    #SlightlyBiggerBox2 button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}

@@ -1,0 +1,278 @@
+.SpacerBlock {
+    top: 1%;
+    width: 100%;
+    height: 12%;
+    position: absolute;
+}
+
+.VideoBox {
+    display:flex;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 100%;
+    height: 85%;
+}
+
+.video-tinted {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.video-tinted::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    pointer-events: none;
+}
+
+p#main-heading {
+    position: absolute;
+    font-family: arial;
+    top: 30%;
+    left: 50%;
+    width: 70%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(189, 254, 104);
+    z-index: 10;
+}
+
+p#sub-heading {
+    position: absolute;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    top: 60%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    z-index: 10;
+}
+
+button#Main-Button {
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.ContactBox1 {
+    position: absolute;
+    top: 150%;
+    background-color: rgb(102, 189, 50);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width: 70%;
+    height: 40%;
+}
+
+.ContactBox2 {
+    position: absolute;
+    top: 190%;
+    background-color:rgb(69, 126, 32);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width: 70%;
+    height: 40%;
+}
+
+.ContactBox3 {
+    position: absolute;
+    top: 230%;
+    background-color: rgb(34, 63, 15);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width: 70%;
+    height: 40%;
+}
+
+#smallerbox {
+    width: 30%;
+    background-color: rgb(117, 187, 117);
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    height: 90%;
+}
+
+#smallerbox1 {
+    width: 30%;
+    background-color: rgb(106, 152, 77);
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    height: 90%;
+}
+
+#smallerbox2 {
+    width: 30%;
+    background-color: rgb(79, 101, 63);
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    height: 90%;
+}
+#SlightlyBiggerBox {
+    width: 60%;
+    background-color:rgb(102, 189, 50);
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+#SlightlyBiggerBox1 {
+    width: 60%;
+    background-color:rgb(69, 126, 32);
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+#SlightlyBiggerBox2 {
+    width: 60%;
+    background-color:rgb(34, 63, 15);
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#NoteContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+.NoteBox {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+#Left, #Middle, #Right, #BoxRight, #BoxLeft {
+    background-color: #ffffff00;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow: hidden;
+    white-space: normal;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#Left, #Middle, #Right {
+    flex: 1;
+}
+
+#Left p, #Middle p, #Right p {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+    padding: 5px;
+}
+
+#BoxLeft, #BoxRight {
+    width: 1px !important;
+    height: 100%;
+    flex: 0 0 auto;
+    padding: 0;
+    background-color: #787878e9;
+}
+
+p#Bottom1 {
+    color: rgb(213, 212, 212);
+    font-size: 20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    padding: 5px 0;
+}
+
+#Top1 {
+    font-size: 32px;
+    color: white;
+    font-style: bold;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 5px 0;
+}
+
+#smallerbox p, #smallerbox1 p, #smallerbox2 p {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+
+#SlightlyBiggerBox button, 
+#SlightlyBiggerBox1 button, 
+#SlightlyBiggerBox2 button {
+    display: block;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px auto;
+    width: fit-content;
+}

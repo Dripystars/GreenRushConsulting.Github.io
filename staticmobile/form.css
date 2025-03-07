@@ -1,0 +1,17 @@
+@media screen and (max-width: 808px) {
+
+.form-container {
+    width: 95%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 190%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+}

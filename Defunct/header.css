@@ -1,0 +1,176 @@
+.Header {
+    position: fixed;
+    z-index: 1000;
+    border-bottom: 4px solid #858783;
+    background-color: white;
+    height: 15%;
+    width: 100%;
+    top: 0;
+    left: 0; /* Ensure it's aligned to the left edge of the screen */
+}
+
+#HeaderMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: 8%;
+    position: fixed;
+}
+
+#HeaderMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+#HeaderMenu li {
+    font-size: 18px;
+    padding: 10px;
+}
+
+#HeaderMenu a {
+    text-decoration: none;  /* Remove underline from links */
+    color: #333;  /* Set a color for the text */
+    transition: color 0.3s ease;  /* Smooth color transition on hover */
+}
+
+#HeaderMenu a:hover {
+    color: #007BFF;  /* Change color on hover */
+}
+
+p#Phone {
+    right: 6%;
+    position: fixed;
+    top: 5%;
+}
+
+p#Phone1 {
+    position: fixed;
+    right: 5%;
+    top: 8%;
+}
+
+img#company-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+}
+/* Footer Shit */
+
+.Footer {
+    background-color: #222;      
+    color: #fff;                  
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;    
+    align-items: center; 
+    gap: 20px;
+    border-top: 4px solid #66bd32;
+    width: 100%;
+    top: 340%;
+    position: absolute;
+}
+
+
+#topbox {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    max-width: 80%;       
+    gap: 20px;
+}
+
+
+#Bigbox, #Smallbox {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-height: 100px; 
+}
+
+#Smallbox {
+    max-width: 250px;
+}
+
+/* Company Logo */
+#company-image-footer {
+    width: 150px; 
+    height: auto;
+}
+
+/* Contact Information */
+#PhoneFooter {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #66bd32;
+    margin: 5px 0;
+}
+
+#Phone1Footer {
+    font-size: 1.2em;
+    margin: 0;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+#Phone1Footer:hover {
+    color: #a4e57e;
+    text-decoration: underline;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+p#InfoFooter {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p#moreinfo {
+    font-size: 18px;
+}
+
+p#Hours {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p#Location {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div#bottombox {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 80%;
+}
+
+div#bottombottombox {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}

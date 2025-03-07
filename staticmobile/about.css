@@ -1,0 +1,78 @@
+@media screen and (max-width: 808px) {
+    .VideoBox1 {
+        justify-content: flex-end;
+    }
+    .VideoBox2 {
+        top: 90%;
+        height: 40%;
+        width: 100%;
+        position: absolute;
+        background-color: black;
+        object-fit: cover;
+    }
+
+    button#caroselbuttin {
+        display: none;
+    }
+    p#sub1-heading {
+        top: 55%;
+        font-size: 14px;
+        width: 90%;
+    }
+    p#main1-heading {
+        top: 25%;
+    }
+    .carousel-container {
+        top: 85%;
+    }
+    video.video-tinted2 {
+        top: 0%;
+        height: 100%;
+        width: 100%;
+        position: inherit;
+        object-fit: cover;
+    }
+    p#main-heading2 {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 100;
+        color: white;
+        font: bold;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        width: 80%;
+        text-align: center;
+    }
+    p#sub-heading2 {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 100;
+        color: white;
+        font: bold;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        width: 90%;
+        text-align: center;
+    }
+    .form-container {
+        top: 130% !important;
+    }
+    .Footer {
+        top: 200% !important;
+    }
+
+    #topbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}

@@ -1,0 +1,15 @@
+:root {
+    --main-green: rgb(102, 189, 50);
+    --dark-green: rgb(69, 126, 32);
+    --darker-green: rgb(34, 63, 15);
+    --light-green: rgb(117, 187, 117);
+    --medium-green: rgb(106, 152, 77);
+    --darkest-green: rgb(79, 101, 63);
+    --heading-color: rgb(189, 254, 104);
+    --text-color: white;
+    --font-primary: Arial, sans-serif;
+    --font-secondary: 'Times New Roman', Times, serif;
+    --button-bg: black;
+    --button-hover: #0056b3;
+    --button-radius: 50px;
+}

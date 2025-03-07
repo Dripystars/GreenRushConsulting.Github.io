@@ -1,0 +1,44 @@
+.map-container {
+    top: 45%;
+    left: 0;
+    max-width: 100%;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+#canvas-for-googlemap {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+#canvas-for-googlemap iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    filter: grayscale(20%) contrast(90%); /* Optional map styling */
+    transition: transform 0.3s ease; /* Smooth zoom effect on hover */
+}
+
+#canvas-for-googlemap iframe:hover {
+    transform: scale(1.02); /* Slight zoom on hover */
+}
+
+.my-codefor-googlemap {
+    display: none; /* Hide the "Internet Provider" link if not needed */
+}
+
+/* Fix Google Maps marker issues */
+#canvas-for-googlemap img.text-marker {
+    max-width: none !important;
+    background: none !important;
+}
+
+img {
+    max-width: none;
+}

@@ -1,0 +1,219 @@
+ /* Root variables for consistency */
+ :root {
+    --main-green: rgb(102, 189, 50);
+    --dark-green: rgb(69, 126, 32);
+    --darker-green: rgb(34, 63, 15);
+    --light-green: rgb(117, 187, 117);
+    --medium-green: rgb(106, 152, 77);
+    --darkest-green: rgb(79, 101, 63);
+    --heading-color: rgb(189, 254, 104);
+    --text-color: white;
+    --font-primary: Arial, sans-serif;
+    --font-secondary: 'Times New Roman', Times, serif;
+    --button-bg: black;
+    --button-hover: #0056b3;
+    --button-radius: 50px;
+}
+
+/* Global Resets */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Utility Classes */
+.absolute-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-width-height {
+    width: 100%;
+    height: 100%;
+}
+
+/* Spacer Block */
+.SpacerBlock {
+    position: absolute;
+    top: 1%;
+    width: 100%;
+    height: 12%;
+}
+
+/* Video Section */
+.VideoBox {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 100%;
+    height: 85%;
+}
+
+.video-tinted {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.video-tinted::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgb(0, 0, 0);
+    pointer-events: none;
+}
+
+/* Headings */
+p#main-heading, p#sub-heading {
+    position: absolute;
+    width: 70%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    font-weight: bold;
+}
+
+p#main-heading {
+    top: 15%;
+    font-size: 50px;
+    font-family: var(--font-primary);
+    color: var(--heading-color);
+}
+
+p#sub-heading {
+    top: 30%;
+    font-size: 30px;
+    font-family: var(--font-secondary);
+    color: var(--text-color);
+}
+
+p#sub-heading2 {
+    top: 40%;
+    font-size: 20px;
+    font-family: var(--font-secondary);
+    color: var(--text-color);
+    z-index: 10;
+    width: 70%;
+    position: absolute;
+    text-align: center;
+    left: 15%;
+}
+
+/* Video Section */
+.VideoBox {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 100%;
+    height: 85%;
+}
+
+.video-tinted {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.video-tinted::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgb(0, 0, 0);
+    pointer-events: none;
+}
+
+div#Tinter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    max-width: 100%;
+    background-color: #000000d4;
+}
+
+
+div#service1 {
+    position: initial;
+    display: flex;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+div#service2 {
+    position: initial;
+    display: flex;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+div#service3 {
+    position: initial;
+    display: flex;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.services {
+    position: absolute;
+    top: 85%;
+    display: flex;
+    align-items: flex-start;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 80%;
+    left: 10%;
+}
+
+img#company-image1 {
+    position: initial;
+    width: 200px;
+}
+
+p#Content {
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.carousel-container {
+    position: absolute;
+    width: 80%;
+    top: 205% !important;
+    border: 1px;
+    border-color: black;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    overflow: hidden;
+}
+
+.form-container {
+    width: 80% !important;
+    top: 210% !important;
+}
+
+.Footer {
+    top:300% !important;
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 808px) {
+    img#mainimg {
+        position: initial;
+        width: 100%;
+        height: 250px;
+    }
+    
+    h1#H1Tag {
+        text-align: center;
+        font-size: large;
+        padding: 15px 0;
+    }
+    
+}

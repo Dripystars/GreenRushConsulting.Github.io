@@ -1,0 +1,153 @@
+img#mainimg {
+    position: initial;
+    width: 100%;
+    height: 400px;
+}
+
+h1#H1Tag {
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 0;
+}
+
+.form-container {
+    width: 40%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    /* position: absolute; */
+    top: 260%;
+    left: 50%;
+    /* transform: translateX(-50%); */
+}
+
+
+/* Form Heading */
+.form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+/* Form Group Layout */
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-direction: column;
+}
+
+/* Labels */
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Input Fields */
+.form-group input,
+.form-group textarea {
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+    background-color: #fff;
+}
+
+/* Input Focus Effect */
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit Button */
+.submit-btn {
+    position:inherit !important;
+    transform: none !important;
+    width: 100% !important;
+    padding: 12px !important;
+    background-color: #007BFF !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 4px !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+}
+
+/* Hover Effect for Submit Button */
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+div#Section1 {
+    padding: 0px 50px;
+    width: 100%;
+    position: inherit;
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div#Content1 {
+    max-width: 60%;
+}
+
+h1, h2 {
+    color: #333;
+    padding: 10px 0px;
+}
+ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+p#formp {
+    padding: 10px 0px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    color: green;
+}
+
+p {
+    padding: 10px 0px;
+}
+
+div#Block2 {
+    position: inherit;
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 0px 50px;
+}
+
+div#Section3 {
+    max-width: 30%;
+}
+
+div#Section2 {
+    max-width: 30%;
+}
+
+div#Section4 {
+    width: 50%;
+    max-width: 30%;
+}

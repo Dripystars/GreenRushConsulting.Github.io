@@ -1,0 +1,69 @@
+/* Responsive Adjustments */
+@media screen and (max-width: 808px) {
+    /* Adjust the position and layout of the text */
+    p#main1-heading {
+        font-size: 24px;
+        width: 90%;  /* Ensure it fits on mobile screens */
+    }
+
+    p#sub1-heading {
+        font-size: 14px;
+        width: 90%;  /* Ensure it fits on mobile screens */
+    }
+
+    /* Stack the TopContainer items */
+    #TopContainer {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #Contatstuff {
+        width: 100%;
+        gap: 25px;
+    }
+
+    /* Adjust form container for mobile */
+    .form-container {
+        width: 90%;
+        max-width: 90%;
+        margin: 20px auto;
+    }
+
+    /* Reduce size of logo in footer */
+    #company-image-footer {
+        width: 100px;
+    }
+
+    .ImageContact img {
+        width: 100%; /* Image takes the full width of the container */
+        object-fit: cover; /* Keeps the image properly scaled */
+    }
+
+    #TopContainer {
+        width: 100%;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: inline-flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: nowrap;
+        padding: 20px;
+        box-sizing: border-box;
+        align-items: center;
+        flex-direction: column;
+    }
+    button#Book {
+        background: green;
+        color: white;
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .Footer {
+        top: 160% !important;
+    }
+}
