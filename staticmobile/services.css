@@ -68,7 +68,7 @@
     .carousel-container {
         position: absolute;
         width: 80%;
-        top: 350% !important;
+        top: 360% !important;
         border: 1px;
         border-color: black;
         left: 50%;
@@ -79,7 +79,7 @@
 
     .form-container {
         width: 90% !important;
-        top: 350% !important;
+        top: 360% !important;
     }
     .Footer {
         top: 440% !important;

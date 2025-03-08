@@ -30,11 +30,12 @@
     p#sub1-heading {
         top: 62%;
         font-size: 14px;
-        width: 90%;
+        width: 95%;
     }
     p#main1-heading {
         top: 15%;
         width: 95%;
+        font-size: 26px;
     }
     .carousel-container {
         top: 100%;
