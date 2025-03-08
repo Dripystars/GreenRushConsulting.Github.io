@@ -33,6 +33,7 @@
     /* Reduce size of logo in footer */
     #company-image-footer {
         width: 100px;
+        display: none;
     }
 
     .ImageContact img {
@@ -43,7 +44,7 @@
     #TopContainer {
         width: 100%;
         position: absolute;
-        top: 60%;
+        top: 90%;
         left: 50%;
         transform: translate(-50%, -50%);
         display: inline-flex;
@@ -65,6 +66,13 @@
     }
 
     .Footer {
-        top: 160% !important;
+        top: 230% !important;
+    }
+
+    .form-container {
+        top: 140% !important;
+    }
+    .ImageContact {
+        top: 21%
     }
 }
