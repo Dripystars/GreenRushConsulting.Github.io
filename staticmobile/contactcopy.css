@@ -1,124 +1,80 @@
-/* Responsive Adjustments */
-@media screen and (max-width: 808px) {
-    .ImageContact {
-        position: absolute; /* Ensures it's positioned relative to the viewport */
-        top: 15%;
-        left: 0;
-        width: 100vw; /* Full viewport width */
-        display: flex;
-        flex-direction: column; /* Stack heading and image vertically */
-        justify-content: center; /* Center vertically */
-        align-items: center; /* Center horizontally */
-        background-color: #f5f5f5; /* Optional background for visibility */
-        margin: 0;
-        padding: 0;
-        overflow: hidden; /* Prevent scrollbars if content overflows */
-    }
-    
-    p#main1-heading {
-        position: absolute;
-        font-family: arial; /* Use absolute to position it within the parent container */
-        top: 30%;
-        left: 50%;
-        width: 70%;
-        text-align: center;
-        transform: translate(-50%, -50%); /* Centers the heading */
-        font-size: 30px;
-        font-weight: bold;
-        color: rgb(189, 254, 104);  /* White text color for contrast */
-        z-index: 10; /* Make s5ure the heading stays on top of the video */
-    }
-    
-    p#sub1-heading {
-        position: absolute;
-        text-align: center;
-        font-family: 'Times New Roman', Times, serif; /* Use absolute to position it within the parent container */
-        top: 60%;
-        left: 50%;
-        width: 70%;
-        transform: translate(-50%, -50%); /* Centers the heading */
-        font-size: 16px;
-        font-weight: bold;
-        color: white;  /* White text color for contrast */
-        z-index: 10; /* Make sure the heading stays on top of the video */
-    }
-    
-    #TopContainer {
+@media screen and (max-width: 768px) {
+    /* Make header sticky */
+    .Header {
+        position: fixed;
+        top: 0;
         width: 100%;
-        position: absolute;
-        top: 75%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        display: flex;
-        justify-content: center;
-        gap: 40px;
-        flex-wrap: wrap;
-        padding: 20px;
-        box-sizing: border-box;
-        flex-direction: row;
-        align-items: center;
-    }
-    
-    #Contatstuff {
-        display: inline-flex;
-        gap: 15px;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-    
-    .form-container {
-        width: 90%;
-        margin: 50px auto;
-        padding: 20px;
-        background-color: #f9f9f9;
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        font-family: Arial, sans-serif;
-        position: absolute;
-        top: 100% !important;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    
-    .Footer {
-        background-color: #222;
-        color: #fff;
-        padding: 20px 40px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        border-top: 4px solid #66bd32;
-        width: 100%;
-        top: 190% !important;
-        position: absolute;
-    }
-    
-    button#Book {
-        background: green;
-        color: white;
-        font-size: 15px;
+        background: white;
+        z-index: 1000;
         padding: 10px;
-        border-radius: 10px;
-        border: none;
     }
 
-    div#pagewrapper {
-        position: initial;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
+    /* Stack header elements */
+    .HeaderContainer {
+        flex-direction: column;
+        text-align: center;
     }
 
+    /* Adjust the main heading */
+    p#main1-heading {
+        font-size: 22px;
+        width: 90%;
+        top: 20%;
+    }
+
+    p#sub1-heading {
+        font-size: 14px;
+        width: 90%;
+        top: 50%;
+    }
+
+    /* Ensure images are responsive */
     .ImageContact img {
         width: 100%;
-        object-fit: cover;
+        height: auto;
+    }
+
+    /* Google Map */
+    .map-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #canvas-for-googlemap iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    /* Contact Information */
+    #Contatstuff {
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Adjust Form Layout */
+    .form-container {
+        width: 95%;
+        max-width: 95%;
+        margin: 10px auto;
+        padding: 15px;
+    }
+
+    /* Button */
+    button#Book {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    /* Footer Adjustments */
+    .Footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #company-image-footer {
+        width: 80px;
     }
 }
