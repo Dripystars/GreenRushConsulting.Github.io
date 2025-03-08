@@ -50,6 +50,7 @@
         text-align: left;
         font-size: 16px;
         line-height: 1.5;
+        text-align: center;
     }
 
     .services {
@@ -67,7 +68,7 @@
     .carousel-container {
         position: absolute;
         width: 80%;
-        top: 265% !important;
+        top: 350% !important;
         border: 1px;
         border-color: black;
         left: 50%;
@@ -78,9 +79,48 @@
 
     .form-container {
         width: 90% !important;
-        top: 265% !important;
+        top: 350% !important;
     }
     .Footer {
-        top: 330% !important;
+        top: 440% !important;
     }
+
+    p#sub-heading {
+        top: 25%;
+        font-size: 20px;
+        font-family: var(--font-secondary);
+        color: var(--text-color);
+        width: 95%;
+    }
+
+    p#sub-heading2 {
+        top: 32%;
+        font-size: 16px;
+        font-family: var(--font-secondary);
+        color: var(--text-color);
+        z-index: 10;
+        width: 70%;
+        position: absolute;
+        text-align: center;
+        left: 15%;
+    }
+
+    p#main-heading {
+        top: 15%;
+        font-size: 30px;
+        font-family: var(--font-primary);
+        color: var(--heading-color);
+        width: 95%;
+    }
+
+    .VideoBox {
+        display: flex;
+        position: absolute;
+        top: 20%;
+        left: 0;
+        width: 100%;
+        height: 85%;
+    }
+
+
 }

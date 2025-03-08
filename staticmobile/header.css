@@ -87,6 +87,7 @@
     /* When the menu is opened, make it visible */
     #HeaderMenu.open {
         display: flex;
+        max-width: fit-content;
     }
 
 }

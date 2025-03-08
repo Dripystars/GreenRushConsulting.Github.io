@@ -1,9 +1,22 @@
 @media screen and (max-width: 808px) {
     .VideoBox1 {
+        display: flex;
+        position: absolute;
+        top: 20%;
+        left: 0;
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+        max-width: 100%;
+        background-color: #000000d4;
         justify-content: flex-end;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        align-items: center;
     }
     .VideoBox2 {
-        top: 90%;
+        top: 110%;
         height: 40%;
         width: 100%;
         position: absolute;
@@ -15,15 +28,17 @@
         display: none;
     }
     p#sub1-heading {
-        top: 55%;
+        top: 62%;
         font-size: 14px;
         width: 90%;
     }
     p#main1-heading {
-        top: 25%;
+        top: 15%;
+        width: 95%;
     }
     .carousel-container {
-        top: 85%;
+        top: 100%;
+        width: 100%;
     }
     video.video-tinted2 {
         top: 0%;
@@ -58,11 +73,12 @@
         width: 90%;
         text-align: center;
     }
+    
     .form-container {
-        top: 130% !important;
+        top: 150% !important;
     }
     .Footer {
-        top: 200% !important;
+        top: 240% !important;
     }
 
     #topbox {
@@ -74,5 +90,15 @@
         align-content: flex-start;
         flex-wrap: wrap;
         flex-direction: column-reverse;
+    }
+    div#Tinter {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+        max-width: 100%;
+        background-color: #000000d4;
     }
 }

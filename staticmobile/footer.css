@@ -9,16 +9,19 @@
         width: 100%;
         padding: 15px;
         min-height: auto;
+        text-align: center;
     }
 
     #Smallbox {
         max-width: 100%;
+        line-height: 1.5;
     }
 
     #company-image-footer {
         width: 120px;
         position: relative;
         left: 40%;
+        display: none;
     }
 
     p#InfoFooter {
@@ -42,5 +45,9 @@
     div#bottombottombox {
         width: 100%;
         align-items: center;
+    }
+
+    p#Trademark {
+        text-align: center;
     }
 }
