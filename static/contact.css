@@ -1,16 +1,16 @@
 .ImageContact {
-    position: absolute; /* Ensures it's positioned relative to the viewport */
-    top: 15%;
-    left: 0;
-    width: 100vw; /* Full viewport width */
-    display: flex;
-    flex-direction: column; /* Stack heading and image vertically */
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
-    background-color: #f5f5f5; /* Optional background for visibility */
-    margin: 0;
-    padding: 0;
-    overflow: hidden; /* Prevent scrollbars if content overflows */
+    /* position: absolute; */
+    /* top: 15%; */
+    /* left: 0; */
+    /* width: 100vw; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: #f5f5f5; */
+    /* margin: 0; */
+    /* padding: 0; */
+    overflow: hidden;
 }
 
 p#main1-heading {
