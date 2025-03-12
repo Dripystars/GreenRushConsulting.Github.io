@@ -17,4 +17,12 @@
     div#NameMeHarderBro {
         padding: 0px 50px;
     }
+
+    div#Block2 {
+        flex-direction: column;
+    }
+
+    div#Section3 {
+        max-width: 100% !important;
+    }
 }
