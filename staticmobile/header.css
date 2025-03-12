@@ -90,7 +90,7 @@
         display: flex;
         max-width: fit-content;
         flex-direction: row;
-        top: 15%;
+        top: 14%;
     }
     div#statesMenu {
         top: 30% !important;
