@@ -9,7 +9,7 @@
         display: none;
     }
     .NoteBox {
-        width: 90%; /* Take up more width on smaller screens */
+        width: 90%;
     }
 
     .SpacerBlock {
@@ -19,19 +19,19 @@
         width: 100%;
         height: 12%;
     }
-    /* Ensure elements are horizontally aligned */
+
     #Left, #Middle, #Right, #BoxRight, #BoxLeft {
-        width: 30%; /* Adjust to fit three items side by side */
+        width: 30%;
         text-align: center;
     }
 
     /* Smaller Text on Mobile */
     #Left p, #Middle p, #Right p {
-        font-size: 14px; /* Adjust text size for mobile */
+        font-size: 14px;
     }
 
     #smallerbox p, #smallerbox1 p, #smallerbox2 p {
-        font-size: 20px; /* Adjust text size for mobile */
+        font-size: 20px;
     }
 
     #BoxLeft, #BoxRight {
@@ -42,8 +42,8 @@
     #SlightlyBiggerBox button,
     #SlightlyBiggerBox1 button,
     #SlightlyBiggerBox2 button {
-        font-size: 1em; /* Adjust button size for mobile */
-        padding: 10px 20px; /* Adjust padding for smaller screens */
+        font-size: 1em;
+        padding: 10px 20px;
     }
     [id^="SlightlyBiggerBox"] {
         width: 60%;
@@ -51,7 +51,7 @@
         position: absolute;
         right: 0;
     }
-    /* Video Section */
+
     .VideoBox {
         display: flex;
         position: absolute;
@@ -78,60 +78,60 @@
         background: rgb(0, 0, 0);
         pointer-events: none;
     }
-    /* Note Section */
+
     #NoteContainer {
         top: 90%;
     }
 
     .NoteBox {
-        width: 100%; /* Take up more space on smaller screens */
-        flex-direction: row; /* Stack sections vertically */
+        width: 100%;
+        flex-direction: row;
         display: flex;
-        align-items: center; /* Align content to the top */
+        align-items: center;
     }
 
     #Left, #Middle, #Right {
-        width: 100%; /* Each section takes full width */
-        text-align: left; /* Ensure text aligns properly */
-        padding: 10px; /* Add internal spacing */
+        width: 100%;
+        text-align: left;
+        padding: 10px; 
     }
     #Left p, #Middle p, #Right p {
         text-align: center;
     }
 
     p#main-heading {
-        font-size: 30px; /* Smaller font size for main heading */
-        margin-bottom: 10px; /* Ensure spacing below the heading */
+        font-size: 30px; 
+        margin-bottom: 10px; 
         width: 95%;
     }
 
     p#sub-heading {
-        font-size: 18px; /* Smaller font size for sub-heading */
-        margin-bottom: 15px; /* Add spacing below sub-heading */
+        font-size: 18px; 
+        margin-bottom: 15px; 
     }
 
     button#Main-Button {
-        font-size: 1.5em; /* Adjust button size */
-        padding: 8px 20px; /* Adjust button padding */
-        margin-top: 10px; /* Ensure spacing above the button */
+        font-size: 1.5em; 
+        padding: 8px 20px; 
+        margin-top: 10px; 
     }
 
-    /* Adjust smaller and bigger boxes for mobile */
+  
     #smallerbox, #smallerbox1, #smallerbox2,
     #SlightlyBiggerBox, #SlightlyBiggerBox1, #SlightlyBiggerBox2 {
-        width: 90%; /* Allow boxes to take up most of the screen width */
+        width: 90%; 
         left: 50%;
         transform: translateX(-50%);
-        margin-top: 15px; /* Add spacing between boxes */
+        margin-top: 15px; 
     }
 
-    /* Adjust button sizes in smaller boxes */
+
     #SlightlyBiggerBox button,
     #SlightlyBiggerBox1 button,
     #SlightlyBiggerBox2 button {
         font-size: 1em;
         padding: 10px 20px;
-        margin-top: 10px; /* Ensure spacing above buttons */
+        margin-top: 10px; 
     }
     #ContactContainer {
         position: absolute;
@@ -159,7 +159,7 @@
         background-color: var(--darker-green); 
     }
     .Footer {
-        top:370%;
+        top:400% !important;
     }
 
     .form-container {

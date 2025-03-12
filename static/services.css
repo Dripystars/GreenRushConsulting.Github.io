@@ -222,3 +222,8 @@ p#Content {
     top: 360% !important;
     position: absolute;
 }
+
+button#BookConsult {
+    position: inherit !important;
+    transform: none !important;
+}

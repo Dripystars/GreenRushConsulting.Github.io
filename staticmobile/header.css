@@ -78,14 +78,13 @@
         height: auto;
         display: inline-block;
     }
-    /* Hide the menu by default */
+
     #HeaderMenu {
         display: none;
         flex-direction: column;
         align-items: center;
     }
 
-    /* When the menu is opened, make it visible */
     #HeaderMenu.open {
         position: fixed;
         display: flex;
@@ -95,10 +94,11 @@
     }
     div#statesMenu {
         top: 30% !important;
-        width: 90% !important;
+        width: 100% !important;
     }
 
     div#State1 {
         grid-template-columns: repeat(4, 1fr) !important;
+        font-size: 14px;
     }
 }

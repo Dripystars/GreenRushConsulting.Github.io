@@ -98,3 +98,17 @@ p#sub-heading2 {
     top: 280% !important;
     position: absolute;
 }
+
+button#Book {
+    background: green;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button#BookConsult {
+    position: inherit !important;
+    transform: none !important;
+}

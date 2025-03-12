@@ -1,17 +1,17 @@
-/* Responsive Adjustments */
+
 @media screen and (max-width: 808px) {
-    /* Adjust the position and layout of the text */
+
     p#main1-heading {
         font-size: 24px;
-        width: 90%;  /* Ensure it fits on mobile screens */
+        width: 90%;
     }
 
     p#sub1-heading {
         font-size: 14px;
-        width: 90%;  /* Ensure it fits on mobile screens */
+        width: 90%;
     }
 
-    /* Stack the TopContainer items */
+
     #TopContainer {
         flex-direction: column;
         padding: 10px;
@@ -23,22 +23,22 @@
         padding: 20px;
     }
 
-    /* Adjust form container for mobile */
+
     .form-container {
         width: 90%;
         max-width: 90%;
         margin: 20px auto;
     }
 
-    /* Reduce size of logo in footer */
+
     #company-image-footer {
         width: 100px;
         display: none;
     }
 
     .ImageContact img {
-        width: 100%; /* Image takes the full width of the container */
-        object-fit: cover; /* Keeps the image properly scaled */
+        width: 100%;
+        object-fit: cover;
     }
 
     #TopContainer {
@@ -66,7 +66,7 @@
     }
 
     .Footer {
-        top: 230% !important;
+        top: 250% !important;
     }
 
     .form-container {

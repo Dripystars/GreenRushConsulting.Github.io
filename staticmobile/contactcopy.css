@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
-    /* Make header sticky */
+
     .Header {
         position: fixed;
         top: 0;
@@ -9,13 +9,13 @@
         padding: 10px;
     }
 
-    /* Stack header elements */
+
     .HeaderContainer {
         flex-direction: column;
         text-align: center;
     }
 
-    /* Adjust the main heading */
+
     p#main1-heading {
         font-size: 22px;
         width: 90%;
@@ -28,13 +28,13 @@
         top: 50%;
     }
 
-    /* Ensure images are responsive */
+
     .ImageContact img {
         width: 100%;
         height: auto;
     }
 
-    /* Google Map */
+
     .map-container {
         width: 100%;
         padding: 10px;
@@ -45,14 +45,14 @@
         height: 250px;
     }
 
-    /* Contact Information */
+
     #Contatstuff {
         text-align: center;
         width: 100%;
         padding: 10px;
     }
 
-    /* Adjust Form Layout */
+
     .form-container {
         width: 95%;
         max-width: 95%;
@@ -60,14 +60,14 @@
         padding: 15px;
     }
 
-    /* Button */
+
     button#Book {
         width: 100%;
         padding: 12px;
         font-size: 16px;
     }
 
-    /* Footer Adjustments */
+
     .Footer {
         flex-direction: column;
         text-align: center;

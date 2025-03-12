@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
     Object.assign(menu.style, {
         display: "none",
         position: "fixed",
-        top: "20%",
+        top: "25%",
         left: "50%",
         transform: "translate(-50%, -50%)",
         background: "#fff",
@@ -124,7 +124,8 @@ document.addEventListener("DOMContentLoaded", function () {
         display: "grid",
         gridTemplateColumns: "repeat(6, 1fr)",
         gap: "8px",
-        padding: "10px"
+        padding: "10px",
+        fontsize: "14px",
     });
 
     // Linking and stuf
@@ -135,14 +136,14 @@ document.addEventListener("DOMContentLoaded", function () {
         { name: "Arkansas", link: "how-to-open-a-dispensary-in-arkansas.html" },
         { name: "California", link: "how-to-open-a-dispensary-in-california.html" },
         { name: "Colorado", link: "how-to-open-a-dispensary-in-colorado.html" },
-        // { name: "Connecticut", link: "BuddingEarly.html" },
-        // { name: "Delaware", link: "BuddingEarly.html" },
-        // { name: "Florida", link: "BuddingEarly.html" },
-        // { name: "Georgia", link: "BuddingEarly.html" },
-        // { name: "Hawaii", link: "BuddingEarly.html" },
-        // { name: "Idaho", link: "BuddingEarly.html" },
-        // { name: "Illinois", link: "BuddingEarly.html" },
-        // { name: "Indiana", link: "BuddingEarly.html" },
+        { name: "Connecticut", link: "how-to-open-a-dispensary-in-connecticut.html" },
+        //{ name: "Delaware", link: "BuddingEarly.html" },
+        { name: "Florida", link: "how-to-open-a-dispensary-in-florida.html" },
+        { name: "Georgia", link: "how-to-open-a-dispensary-in-georgia.html" },
+        { name: "Hawaii", link: "how-to-open-a-dispensary-in-hawaii.html" },
+        { name: "Idaho", link: "how-to-open-a-dispensary-in-idaho.html" },
+        { name: "Illinois", link: "how-to-open-a-dispensary-in-illinois.html" },
+        { name: "Indiana", link: "how-to-open-a-dispensary-in-indiana.html" },
         // { name: "Iowa", link: "BuddingEarly.html" },
         // { name: "Kansas", link: "BuddingEarly.html" },
         // { name: "Kentucky", link: "BuddingEarly.html" },
@@ -160,10 +161,10 @@ document.addEventListener("DOMContentLoaded", function () {
         // { name: "New Hampshire", link: "BuddingEarly.html" },
         { name: "New Jersey", link: "how-to-open-a-dispensary-in-New-Jersey.html" },
         // { name: "New Mexico", link: "BuddingEarly.html" },
-        // { name: "New York", link: "BuddingEarly.html" },
+        { name: "New York", link: "how-to-open-a-dispensary-in-new-york.html" },
         // { name: "North Carolina", link: "BuddingEarly.html" },
         // { name: "North Dakota", link: "BuddingEarly.html" },
-        // { name: "Ohio", link: "BuddingEarly.html" },
+        { name: "Ohio", link: "how-to-open-a-dispensary-in-ohio.html" },
         // { name: "Oklahoma", link: "BuddingEarly.html" },
         // { name: "Oregon", link: "BuddingEarly.html" },
         // { name: "Pennsylvania", link: "BuddingEarly.html" },
@@ -213,6 +214,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     menu.addEventListener("mouseleave", () => {
         menu.style.display = "none";
+    });
+    document.addEventListener("click", (event) => {
+        if (menu.style.display === "block" && event.target !== statesLink && !menu.contains(event.target)) {
+            menu.style.display = "none";
+        }
     });
 });
 
