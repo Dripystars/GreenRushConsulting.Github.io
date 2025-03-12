@@ -87,8 +87,18 @@
 
     /* When the menu is opened, make it visible */
     #HeaderMenu.open {
+        position: fixed;
         display: flex;
         max-width: fit-content;
+        flex-direction: row;
+        top: 15%;
+    }
+    div#statesMenu {
+        top: 30% !important;
+        width: 90% !important;
     }
 
+    div#State1 {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
 }

@@ -119,6 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     const statesContainer = document.createElement("div");
+    statesContainer.id ="State1"
     Object.assign(statesContainer.style, {
         display: "grid",
         gridTemplateColumns: "repeat(6, 1fr)",
@@ -183,9 +184,10 @@ document.addEventListener("DOMContentLoaded", function () {
     ];
 
     stateLinks.forEach(state => {
-        const div = document.createElement("div");
-        div.textContent = state.name;
-        Object.assign(div.style, {
+        const menubounds = document.createElement("div");
+        menubounds.id = "menubounds";
+        menubounds.textContent = state.name;
+        Object.assign(menubounds.style, {
             padding: "8px",
             cursor: "pointer",
             transition: "background 0.3s",
@@ -193,13 +195,13 @@ document.addEventListener("DOMContentLoaded", function () {
             borderRadius: "4px"
         });
 
-        div.addEventListener("mouseover", () => div.style.background = "#f0f0f0");
-        div.addEventListener("mouseout", () => div.style.background = "transparent");
-        div.addEventListener("click", () => {
+        menubounds.addEventListener("mouseover", () => menubounds.style.background = "#f0f0f0");
+        menubounds.addEventListener("mouseout", () => menubounds.style.background = "transparent");
+        menubounds.addEventListener("click", () => {
             window.location.href = state.link;
         });
 
-        statesContainer.appendChild(div);
+        statesContainer.appendChild(menubounds);
     });
 
     menu.appendChild(statesContainer);
