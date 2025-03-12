@@ -1,0 +1,6 @@
+@media screen and (max-width: 808px) {
+    div#Section2 {
+        max-width: 100% !important;
+    }
+
+}

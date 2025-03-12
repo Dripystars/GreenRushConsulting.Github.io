@@ -278,6 +278,10 @@ p#Bottom1 {
     background-color: var(--button-hover);
 }
 
+.Footer {
+    top: 360% !important;
+    position: absolute;
+}
 
 @media (max-width: 768px) {
     .NoteBox {

@@ -7,7 +7,7 @@
 .carousel-container {
     position: absolute;
     width: 80%;
-    top: 115%; /* Vertical centering */
+    top: 120%; /* Vertical centering */
     left: 50%; /* Horizontal centering */
     transform: translate(-50%, -50%); /* Adjusts the element back by half its width and height */
     margin: 0;

@@ -1,0 +1,121 @@
+@media screen and (max-width: 808px) {
+    img#mainimg {
+        position: initial;
+        width: 100%;
+        height: 250px;
+    }
+    
+    h1#H1Tag {
+        text-align: center;
+        font-size: xx-large;
+        padding: 15px 0;
+    }
+    .form-container {
+        display: none;
+    }
+    div#Content1 {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    p {
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    h1, h2, h3 {
+        color: #333;
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    div#Section2 {
+        max-width: 50%;
+    }
+
+    div#Section3 {
+        max-width: 50%;
+    }
+        
+    div#Section4 {
+        display: none;
+    }
+
+    ul#pagemenuthing {
+        text-align: left;
+        position: initial;
+        display: inline-block;
+    }
+
+    #Smallbox {
+        max-width: 100%;
+        line-height: .5;
+    }
+
+    .form-container1 {
+        display: block;
+    }
+
+    .form-container1 {
+        width: 100%;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-family: Arial, sans-serif;
+        /* position: absolute; */
+        top: 260%;
+        left: 50%;
+        /* transform: translateX(-50%); */
+    }
+    
+    
+    /* Form Heading */
+    .form-container h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    
+    /* Form Group Layout */
+    .form-group {
+        width: 100%;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        align-content: space-around;
+        flex-direction: column;
+    }
+    
+    /* Labels */
+    .form-group label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #555;
+    }
+    
+    /* Input Fields */
+    .form-group input,
+    .form-group textarea {
+        width: 85%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        outline: none;
+        background-color: #fff;
+    }
+    
+    /* Input Focus Effect */
+    .form-group input:focus,
+    .form-group textarea:focus {
+        border-color: #007BFF;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+}

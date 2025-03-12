@@ -95,5 +95,6 @@ p#sub-heading2 {
 }
 
 .Footer {
-    top: 260% !important;
+    top: 280% !important;
+    position: absolute;
 }
