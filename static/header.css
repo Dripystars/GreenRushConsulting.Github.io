@@ -76,6 +76,11 @@ img#company-image {
 p#Phone,
 p#Phone1 {
     margin: 5px 0;
+    padding: 0px !important;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(21, 168, 14);
+    font-size: 22px;
 }
 * {
     box-sizing: border-box;
@@ -87,4 +92,25 @@ img#menu-image {
     width: 85px;
     height: auto;
     display: none;
+}
+
+p#Consult {
+    text-align: center;
+    color: #008000a6;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+button#BookConsult {
+    width: 100%;
+    background-color: green;
+    border: 1px;
+    border-color: black;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
 }

@@ -78,7 +78,7 @@ h1#H1Tag {
     transform: none !important;
     width: 100% !important;
     padding: 12px !important;
-    background-color: #007BFF !important;
+    background-color: #147d06 !important;
     color: white !important;
     border: none !important;
     border-radius: 4px !important;
@@ -90,7 +90,7 @@ h1#H1Tag {
 
 /* Hover Effect for Submit Button */
 .submit-btn:hover {
-    background-color: #0056b3;
+    background-color: #4cff05;
 }
 
 div#Section1 {
@@ -110,6 +110,7 @@ div#Content1 {
 h1, h2 {
     color: #333;
     padding: 10px 0px;
+    font-size: 26px;
 }
 ul {
     list-style: square;
@@ -171,4 +172,32 @@ p#Achievements {
     color: #1dbf1dc2;
     font-weight: bold;
     text-align: center;
+}
+
+p#sub-heading{
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    width: 100%;
+    font-size: 60px;
+    color: #BADA55;
+    font-weight: bold;
+    padding: 00px 000px 00px 000px;
+}
+p#main-heading{
+    position: absolute;
+    top: 25%;
+    /* left: 15%; */
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    width: 100%;
+    padding: 0px 000px 0px 0px;
+    background-color: #39121282;
+    height: 150px;
+    font-weight: bold;
+}
+
+ul#pagemenuthing {
+    padding: 20px 0px;
 }

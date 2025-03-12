@@ -68,7 +68,7 @@
     transform: none !important;
     width: 100% !important;
     padding: 12px !important;
-    background-color: #007BFF !important;
+    background-color: #00ff2a !important;
     color: white !important;
     border: none !important;
     border-radius: 4px !important;
@@ -82,6 +82,7 @@
 .submit-btn:hover {
     background-color: #0056b3;
 }
+
 
 /* Responsive Design */
 @media (max-width: 600px) {

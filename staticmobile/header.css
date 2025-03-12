@@ -21,11 +21,11 @@
         justify-content: space-between;
     }
     .SpacerBlock {
-        display: none;
-        position: absolute;
+        display:block;
+        position: initial;
         top: 1%;
         width: 100%;
-        height: 12%;
+        height: 2%;
     }
     img#company-image {
         width: 80px;
@@ -70,7 +70,7 @@
 
     p#Phone,
     p#Phone1 {
-        font-size: 14px;
+        font-size: 16px;
         padding: 0px;
     }
     img#menu-image {
