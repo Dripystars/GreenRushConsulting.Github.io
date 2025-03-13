@@ -21,6 +21,7 @@
 
     div#Block2 {
         flex-direction: column;
+        text-align: center;
     }
 
     div#Section3 {
