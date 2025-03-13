@@ -114,3 +114,9 @@ button#BookConsult {
     color: white;
     cursor: pointer;
 }
+
+a#Hyperlinks {
+    color: green;
+    font-style: normal;
+    text-decoration: none;
+}
