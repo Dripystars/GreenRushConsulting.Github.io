@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>GRC Services</title>
+    <link rel="stylesheet" href="../static/services.css">
+    <link rel="stylesheet" href="../static/header.css">
+    <link rel="stylesheet" href="../static/form.css">
+    <link rel="stylesheet" href="../static/footer.css">
+    <link rel="stylesheet" href="../static/root.css">
+    <link rel="stylesheet" href="../static/carosel.css">
+    <link rel="stylesheet" href="../staticmobile/header.css">
+    <link rel="stylesheet" href="../staticmobile/form.css">
+    <link rel="stylesheet" href="../staticmobile/services.css">
+    <link rel="stylesheet" href="../staticmobile/footer.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../Assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../Assets/favicon_io/site.webmanifest">
+</head>
+<body>
+    <div class="Header">
+        <div class="HeaderContainer">
+        <div id="HeaderImgContainer">
+            <img id="company-image" src="../Assets/Misc/GreenRushConsulting.png" href="home.html" alt="GreenRushConsultingLogo">
+            <img id="menu-image" src="../Assets/Misc/Menu.jpg" alt="Menu">
+        </div>
+        <div id="HeaderMenu">
+            <ul>
+                <li><a href="home.html" id="Home">Home</a></li>
+                <li><a href="services.html" id="Services">Services</a></li>
+                <li><a href="about.html" id="About">About</a></li>
+                <li><a href="#states" id="States">States</a></li>
+                <li><a href="contact.html" id="Contact">Contact Us</a></li>
+            </ul>
+        </div>
+        <div id="HeaderContactContainer">
+            <p id="Phone">Get Started</p>
+            <p id="Phone1">(702) 533-4899</p>
+        </div>
+        </div>
+    </div>
+    <div id="pagewrapper">
+    <div class="SpacerBlock">
+    </div>
+    <div class="VideoBox">
+        <p id="main-heading">CONSULTING SERVICES</p>
+        <p id="sub-heading">LET US GUIDE YOUR CANNABIS BUSINESS</p>
+        <p id="sub-heading2">The right education is key to starting and successfully operating a cannabis business. Our professional team has the right experience from working with over 1000 cannabis companies since 2011, making us uniquely qualified to help you plan and be a successful cannabis business.</p>
+        <p>This box contains a video with rounded corners.</p>
+        <video class="video-tinted" autoplay loop muted playsinline>
+            <source src="../Assets/StatePageImages/Leavesp2.mp4" type="video/mp4">
+        </video>
+        <div id="Tinter"></div>
+    </div>
+    <div class="services">
+        <div id="service1">
+            <div id="LeftBox">
+                <img id="company-image1" src="../Assets/StatePageImages/Businessmeeting.webp" alt="GreenRushConsultingLogo">
+            </div>
+            <div id="RightBox">
+                <p id="Content">We provide strategic advisory services, licensing, and startup services for clients at any stage to help them navigate complex compliance challenges, create a professional business plan, apply for required licenses, and scale their business. Our services encompass training and support on best practices and procedures educating clients to maximize your operation’s potential. We also offer post license services and support for all cannabis business license types. Whether you are scaling your business or just starting out we offer tools and educations for any stage of development you are in.</p>
+            </div>
+        </div>
+        <div id="service2">
+            <div id="LeftBox">
+                <img id="company-image1" src="../Assets/StatePageImages/Business people.webp" alt="GreenRushConsultingLogo">
+            </div>
+            <div id="RightBox">
+                <p id="Content">Any business that is created needs a solid plan to start operation or attract investors to the venture. We provide clients with premium business plans, financial plans, SOP's, or any other documentation that is needed for your cannabis businesses. We also provide assistance with a variety of other documentation that a business needs to be as good in reality as on paper. Our business plans are customized specifically for interested investors that accentuate the highlights of your cannabis business to make it stand out against the crowd, but also have REAL numbers.</p>
+            </div>
+        </div>
+        <div id="service3">
+            <div id="LeftBox">
+                <img id="company-image1" src="../Assets/StatePageImages/shutterstock_90296821.webp" alt="GreenRushConsultingLogo">
+            </div>
+            <div id="RightBox">
+                <p id="Content">Applying for a cannabis business license requires that you are knowledgeable about the cannabis market with the laws and regulations surrounding it. Green Rush Consulting is dedicated to guiding you through the process, which can be overwhelming in some jurisdictions due to unique laws, and escalate your chance of receiving a license. Our company has helped win over 100 cannabis business licenses across 14 states and two continents, providing an excellent track record and credibility. </p>
+            </div>
+        </div>
+    </div>   
+    
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-item">
+                <img src="../Assets/CaroImgs/Buzzfeed.avif" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="../Assets/CaroImgs/RS.avif" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="../Assets/CaroImgs/Verge.avif" alt="Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="../Assets/CaroImgs/bloomberg.avif" alt="Image 4">
+            </div>
+            <div class="carousel-item">
+                <img src="../Assets/CaroImgs/MG.avif" alt="Image 5">
+            </div>
+            <div class="carousel-item">
+                <img src="../Assets/CaroImgs/MJ.avif" alt="Image 6">
+            </div>
+        </div>
+        <button class="prev" id="caroselbuttin" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" id="caroselbuttin" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+
+<div class="form-container">
+    <h2>Call us at (702) 533-4899 or please fill out our contact form!</h2>
+    <form id="contact-form">
+        <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required>
+        </div>
+        <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+            <label for="state">State</label>
+            <input type="text" id="state" name="state" required>
+        </div>
+        <div class="form-group">
+            <label for="capitalization">Capitalization</label>
+            <input type="text" id="capitalization" name="capitalization" required>
+        </div>
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" id="Email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="inquiry">Inquiry</label>
+            <textarea id="inquiry" name="inquiry" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Submit</button>
+    </form>
+    <p id="Consult">Book a consultation with one of our experts and let us guide you. </p>
+    <a href="https://calendly.com/greenrushconsulting">
+        <button id="BookConsult">Book Now!</button>
+    </a>
+</div>
+</div>
+
+<div class="Footer">
+<div id="topbox">
+    <div id="Bigbox">
+        <p id="InfoFooter">About Us</p>
+        <p id="moreinfo">Our headquarters are located in the San Francisco Bay Area and Las Vegas Nevada. We offer a full suite of custom solutions for your cannabis business including business planning, license application development, and investment opportunities. If you are in need of assistance, please call us during business hours listed below. Thank you.</p>
+    </div>
+    <div id="Smallbox">
+        <p id="Hours">Operating Hours</p>
+        <p id="Hours1">Mon - Fri: 8am - 5pm PST</p>
+        <p id="Location">Head Office</p>
+        <p id="Location1">2300 West Sahara Avenue Suite 800 Las Vegas, NV 89102</p>
+    </div>
+</div>
+<div id="bottombox">
+    <img id="company-image-footer" src="../Assets/Misc/GRCTransparent.png" alt="GreenRushConsultingLogo">
+    <div id="bottombottombox">
+        <p id="Handles">services@greenrushconsulting.com</p>
+        <p id="PhoneFooter">Call us!  (702) 533-4899</p>
+    <p id="Trademark">© 2025 Green Rush Consulting LLC</p>
+</div>
+</div>
+</div>
+</body>
+<script src="../static/javanstuff.js"></script>
+</html>
