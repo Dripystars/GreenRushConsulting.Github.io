@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // { name: "Nebraska", link: "BuddingEarly" },
         // { name: "Nevada", link: "BuddingEarly" },
         // { name: "New Hampshire", link: "BuddingEarly" },
-        { name: "New Jersey", link: "how-to-open-a-dispensary-in-New-Jersey" },
+        { name: "New Jersey", link: "how-to-open-a-dispensary-in-new-jersey" },
         // { name: "New Mexico", link: "BuddingEarly" },
         { name: "New York", link: "how-to-open-a-dispensary-in-new-york" },
         // { name: "North Carolina", link: "BuddingEarly" },
